@@ -112,6 +112,9 @@ nav a {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 
 .middle-content h2 {
