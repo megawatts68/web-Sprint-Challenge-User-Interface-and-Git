@@ -68,12 +68,27 @@ p {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 2%;
-    text-decoration: none;
 }
 
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    width: 70px;
+    text-align: center;
+}
+.logo {
+    width: 20%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
 .container {
     width: 800px;
     margin: 0 auto;
