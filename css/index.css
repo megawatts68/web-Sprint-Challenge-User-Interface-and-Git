@@ -76,7 +76,7 @@ nav {
 nav a {
     display: inline-block;
     text-decoration: none;
-    width: 70px;
+    width: 50px;
     text-align: center;
 }
 .logo {
@@ -87,7 +87,7 @@ nav a {
 
 .links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 .container {
     width: 800px;
